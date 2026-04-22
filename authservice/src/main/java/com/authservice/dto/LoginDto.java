@@ -7,6 +7,7 @@ public class LoginDto {
 
 	@NotBlank
 	private String username;
+	@NotBlank
 	private String password;
 	
 	public String getUsername() {
