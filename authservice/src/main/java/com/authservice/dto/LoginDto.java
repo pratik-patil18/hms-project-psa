@@ -1,7 +1,11 @@
 package com.authservice.dto;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
 public class LoginDto {
-	
+
+	@NotBlank
 	private String username;
 	private String password;
 	
